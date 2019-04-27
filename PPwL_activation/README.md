@@ -35,4 +35,4 @@ For node i, the parametric piecewise linear activation function takes the form:
 
 <img src="assets/PPwL_fn.png" width="400px">
 
-Parameters <img src="assets/ai.png" width="10px"> and <img src="assets/bi.png" width="10px"> are node specific and trained via gradient descent. Both parameters are bound between 0 and 1 (see ``PPwL_activation.py >> min_max_bound``).
+Parameters <img src="assets/ai.png" width="15px"> and <img src="assets/bi.png" width="15px"> are node specific and trained via gradient descent. Both parameters are bound between 0 and 1 (see ``PPwL_activation.py >> min_max_bound``).
