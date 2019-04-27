@@ -24,7 +24,7 @@ Neural networks with linear activations in the hidden layers can be summarized i
 <img src="assets/NN_equiv1.png" width="400px">
 
 The network could learn its optimal architecture by tuning the shape of its activation
-functions. Those nodes with activation functions that are approximately linear at the end of the
+functions. Those nodes with activation functions that are approximately linear at the end of
 training can be dropped.
 
 <img src="assets/NN_equiv2.png" width="400px">
