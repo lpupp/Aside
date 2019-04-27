@@ -10,7 +10,7 @@ nodes). The network can then learn the shape of the activation function,
 allowing for linear, (leaky) relu, hard sigmoid, or something in between.
 
 ### Dependencies
-   - Python 3.7
+   - Python 3
    - Keras
    - Numpy
    - Tensorflow
