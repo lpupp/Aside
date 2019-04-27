@@ -29,4 +29,9 @@ training can be dropped.
 
 <img src="assets/NN_equiv2.png" width="400px">
 
+## The function
 
+For node $i$, the parametric piecewise linear activation function takes the form:
+<img src="assets/PPwL_fn.png" width="400px">
+Parameters <img src="assets/ai.png" width="10px"> and <img src="assets/bi.png" width="10px"> are node specific and trained through gradient descent.
+Both parameters are bound between 0 and 1 (see ``PPwL_activation.py >> min_max_bound``).
