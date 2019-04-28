@@ -29,6 +29,16 @@ training can be dropped.
 
 <img src="assets/NN_equiv2.png" width="400px">
 
+### Steps
+
+1. Choose the depth of your network.
+2. Choose the a generous width of your network.
+3. Initialize the PPwL params with ones.
+4. Train the neural.
+5. Choose a threshold and truncate the PPwL params. E.g., all params above 0.9 are set to 1.
+6. Freeze the truncated params.
+7. Retrain the neural network for a few more iterations.
+
 ## The function
 
 For node i, the parametric piecewise linear activation function takes the form:
