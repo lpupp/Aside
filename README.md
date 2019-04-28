@@ -5,7 +5,7 @@ is where I keep them.
 
 ## Parametric piecewise linear (PPwL) activation functions [(here)](https://github.com/lpupp/Aside/tree/master/PPwL_activation)
 
-<img src="PPwL_activation/assets/PPwLNode.png" width="400px">
+<img src="PPwL_activation/assets/PPwLNode2.png" width="400px">
 
 A mix between the non-linearity of a hard sigmoid activation function and the
 flexibility of a parametric leaky relu. When the nodes are initialized, the
