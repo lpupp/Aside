@@ -29,7 +29,15 @@ training can be dropped.
 
 <img src="assets/NN_equiv2.png" width="400px">
 
-### Steps
+## The function
+
+For node i, the parametric piecewise linear activation function takes the form:
+
+<img src="assets/PPwL_fn.png" width="400px">
+
+Parameters <img src="assets/ai.png" width="15px"> and <img src="assets/bi.png" width="15px"> are node specific and trained via gradient descent. Both parameters are bound between 0 and 1 (see ``PPwL_activation.py >> min_max_bound``).
+
+## Steps
 
 1. Choose the depth of your network.
 2. Choose the a generous width of your network.
@@ -38,11 +46,3 @@ training can be dropped.
 5. Choose a threshold and truncate the PPwL params. E.g., all params above 0.9 are set to 1.
 6. Freeze the truncated params.
 7. Retrain the neural network for a few more iterations.
-
-## The function
-
-For node i, the parametric piecewise linear activation function takes the form:
-
-<img src="assets/PPwL_fn.png" width="400px">
-
-Parameters <img src="assets/ai.png" width="15px"> and <img src="assets/bi.png" width="15px"> are node specific and trained via gradient descent. Both parameters are bound between 0 and 1 (see ``PPwL_activation.py >> min_max_bound``).
