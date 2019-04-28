@@ -39,7 +39,7 @@ Parameters <img src="assets/ai.png" width="15px"> and <img src="assets/bi.png" w
 
 ## Steps
 
-1. Design your neural network with a generous width and PPwL activations in the hidden layer.
+1. Design your neural network with a generous width and PPwL activations in the hidden layers.
 2. Initialize the PPwL params with ones.
 3. Train the neural.
 4. Choose a threshold and truncate the PPwL params. E.g., all params above 0.9 are set to 1.
