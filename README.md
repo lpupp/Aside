@@ -6,7 +6,7 @@ is where I keep them.
 ## Parametric piecewise linear (PPwL) activation functions [(here)](https://github.com/lpupp/Aside/tree/master/PPwL_activation)
 
 **Idea:** allow the network to determine its optimal architecture
-by learning the shape of PPwL activation function initialized linearly. After training,
+by learning the shape of PPwL activation functions, which are initialized linearly. After training,
 some of the PPwL parameters (those close to linear) should be truncated.
 
 <img src="PPwL_activation/assets/PPwLNode2.png" width="400px">
